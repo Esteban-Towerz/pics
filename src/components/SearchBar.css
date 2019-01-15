@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+html::after,
+html::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: #282c34;
+  min-height: 100vh;
+  max-width: 100%;
+}
+
+/* .container {
+  text-align: center;
+  max-width: 1480px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 40px 10px;
+} */
+
+/* input {
+  border: 0px solid;
+  height: 38px;
+  width: 185px;
+  padding: 0 10px 0 11px;
+  font-size: 1rem;
+  text-shadow: -0.5px 0 black;
+  border-color: rgb(168, 135, 52) rgb(156, 126, 49) rgb(132, 106, 41);
+  border-width: 1px 0 1px 1px;
+  border-style: solid;
+  vertical-align: middle;
+} */
+
+.wrap {
+  color: #282c34;
+  /* padding: 0 10px 0 11px; */
+  /* vertical-align: middle; */
+  /* align-self: auto; */
+  /* align-items: center; */
+}
+
+/* button {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+  line-height: 38px;
+  margin: 0;
+  padding: 0 10px 0 11px;
+  text-align: center;
+  white-space: nowrap;
+  box-shadow: 0 1px 0 rgba(255,255,255,.4) inset;
+  background: linear-gradient(to bottom,rgb(247, 223, 165),rgb(240, 193, 75));
+  border-color: rgb(168, 135, 52) rgb(156, 126, 49) rgb(132, 106, 41);
+  border-radius: 0 2px 2px 0;
+  border-style: solid;
+  vertical-align: middle;
+  color: #282c34;
+  font-size: 1rem;
+}
+button:hover {
+  border-color: rgb(168, 135, 52) rgb(156, 126, 49) rgb(132, 106, 41);
+  background: linear-gradient(to bottom,rgb(245, 215, 142),rgb(238, 185, 51));
+} */
